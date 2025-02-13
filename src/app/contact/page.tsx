@@ -1,15 +1,7 @@
 export default function Contact() {
     return (
       <div className="min-h-screen relative">
-        {/* Map background */}
-        <div 
-          className="absolute inset-0 z-0 opacity-20"
-          style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%' height='100%' fill='%23f3f4f6'/%3E%3Cpath d='M0 0h100v100H0z' fill='none' stroke='%23000' stroke-width='0.5'/%3E%3Cpath d='M10 10h80v80H10z' fill='none' stroke='%23000' stroke-width='0.5'/%3E%3Cpath d='M30 30h40v40H30z' fill='none' stroke='%23000' stroke-width='0.5'/%3E%3C/svg%3E")`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center'
-          }}
-        />
+
         
         <div className="relative z-10 container mx-auto px-4 py-16">
           <div className="max-w-2xl mx-auto bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-8">
